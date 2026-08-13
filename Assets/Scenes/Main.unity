@@ -266,9 +266,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51d645c30663142429f4671092cf1fd0, type: 3}
+  m_Script: {fileID: 11500000, guid: 136326a7c18441d479256ec233438be2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RunMiniLM
+  m_EditorClassIdentifier: Assembly-CSharp::SimilarityHandler
   modelAsset: {fileID: 5022602860645237092, guid: d03a8a58b0ad2174a9336225308f57b0, type: 3}
   vocabAsset: {fileID: 4900000, guid: 33748ae95b0154b4ca690eb0ed2c9321, type: 3}
 --- !u!1 &619394800

@@ -164,7 +164,7 @@ public class SimilarityHandler : MonoBehaviour
 
         ids.Add(END_TOKEN);
 
-        Debug.Log("Tokenized sentence = " + s);
+        // Debug.Log("Tokenized sentence = " + s);
 
         return ids;
     }

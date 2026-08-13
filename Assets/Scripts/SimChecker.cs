@@ -8,6 +8,7 @@ public class SimChecker : MonoBehaviour
     public void CheckSimilarity()
     {
         float similarity = SimilarityHandler.GetSimilarity(sentenceA, sentenceB);
-        Debug.Log($"Similarity between \"{sentenceA}\" and \"{sentenceB}\": {similarity}");
+        string hex = ColorUtility.ToHtmlStringRGB(Color.Lerp(Color.red, Color.green, Mathf.Clamp01(similarity)));
+        Debug.Log($"Similarity between \"{sentenceA}\" and \"{sentenceB}\": <color=#{hex}>{similarity}</color>");
     }
 }

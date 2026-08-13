@@ -15,6 +15,6 @@ public class SimChecker : MonoBehaviour
 
         string hex = ColorUtility.ToHtmlStringRGB(Color.Lerp(Color.red, Color.green, Mathf.Clamp01(similarity)));
         
-        Debug.Log($"Similarity between \"{sentenceA}\" and \"{sentenceB}\": <color=#{hex}>{similarity}</color> (took {stopwatch.Elapsed.TotalMilliseconds:F2} ms)");
+        Debug.Log($"Similarity between \"<i>{sentenceA}</i>\" and \"<i>{sentenceB}</i>\": <color=#{hex}>{similarity}</color> (took {stopwatch.Elapsed.TotalMilliseconds:F2} ms)");
     }
 }
